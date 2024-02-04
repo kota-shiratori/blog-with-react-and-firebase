@@ -1,0 +1,29 @@
+.loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  margin: 50px auto 0;
+}
+
+.loginPage p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.loginPage button {
+  padding: 10px;
+  border: none;
+  background-color: cadetblue;
+  box-shadow: 0px 0px 20px -5px #777777;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.loginPage button:hover {
+  transform: translateY(5px);
+  box-shadow: none;
+}
