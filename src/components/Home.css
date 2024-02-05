@@ -57,3 +57,16 @@
 .nameAndDeleteButton h3 {
   flex: 90%;
 }
+
+@media (max-width: 600px) {
+  .homePage .postContents {
+    width: 100%;
+    max-height: none;
+  }
+  .nameAndDeleteButton button {
+    flex: 20%;
+  }
+  .nameAndDeleteButton h3 {
+    flex: 80%;
+  }
+}
